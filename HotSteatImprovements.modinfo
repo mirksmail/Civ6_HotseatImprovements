@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="29e488ee-2f25-4dee-a3db-870e3c6cd6be" version="1">
+	<Properties>
+		<Name>Hotseat Improvements</Name>
+		<Teaser>Improves hotseat experience.</Teaser>
+		<Description>This mod is intended for non competitive Hotseat games. It removes the screen that blocks view in between players turns, automaticaly confirms the beggining of next turn and also displays extra notifications that are otherwise disabled on mutiplayer games (wonders, captured units, etc.).</Description>
+		<Authors>mirk</Authors>
+	<CompatibleVersions>2.0</CompatibleVersions>
+	<AffectsSavedGames>0</AffectsSavedGames>
+	</Properties>
+
+	<InGameActions>
+		<ImportFiles>
+			<File>WonderBuiltPopup.lua</File>
+			<File>PlayerChange.lua</File>
+			<File>HotSeatBackground.xml</File>
+			<File>NaturalWonderPopup.lua</File>
+			<File>ProjectBuiltPopup.lua</File>
+			<File>UnitCaptured.lua</File>
+		</ImportFiles>
+	</InGameActions>
+
+	<Files>
+		<File>PlayerChange.lua</File>
+		<File>HotSeatBackground.xml</File>
+		<File>WonderBuiltPopup.lua</File>
+		<File>NaturalWonderPopup.lua</File>
+		<File>ProjectBuiltPopup.lua</File>
+		<File>UnitCaptured.lua</File>
+	</Files>
+</Mod>
