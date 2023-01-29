@@ -3,7 +3,7 @@
 	<Properties>
 		<Name>Hotseat Improvements</Name>
 		<Teaser>Improves hotseat experience.</Teaser>
-		<Description>This mod is intended for non competitive Hotseat games. It removes the screen that blocks view in between players turns, automaticaly confirms the beggining of next turn and also displays extra notifications that are otherwise disabled on mutiplayer games (wonders, captured units, etc.).</Description>
+		<Description>This mod is intended for non competitive Hotseat games. It removes the screen that blocks view in between players' turns, automatically confirms the beginning of next turn and also displays extra notifications that are otherwise disabled on multiplayer games (wonders, captured units, etc.).</Description>
 		<Authors>mirk</Authors>
 	<CompatibleVersions>2.0</CompatibleVersions>
 	<AffectsSavedGames>0</AffectsSavedGames>
