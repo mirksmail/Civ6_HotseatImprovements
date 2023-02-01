@@ -100,7 +100,7 @@ function OnLocalPlayerTurnEnd()
 			SetPause(false);
 		end 
 		--if(GetNumAliveHumanPlayers() > 1) then
-			UIManager:QueuePopup( ContextPtr, PopupPriority.PlayerChange);
+			-- UIManager:QueuePopup( ContextPtr, PopupPriority.PlayerChange);
 		--end
 	end
 end
